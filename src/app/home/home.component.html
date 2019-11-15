@@ -1,0 +1,44 @@
+<form class="example-form" >
+       
+
+        
+        <p class="no">Home</p>
+        <p class="eo">
+        <mat-radio-group aria-label="Select an option">
+                        <mat-radio-button value="1">Car</mat-radio-button>
+                        <mat-radio-button value="2">Motor Bike</mat-radio-button>
+        </mat-radio-group>
+        </p>
+
+      
+
+
+        
+        <mat-form-field class="example-full-width">
+                        <input matInput [matDatepicker]="picker" placeholder="Start date">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        
+        
+
+        <mat-form-field class="example-full-width">
+                        <input matInput [matDatepicker]="rolle" placeholder="End date">
+                        <mat-datepicker-toggle matSuffix [for]="rolle"></mat-datepicker-toggle>
+                        <mat-datepicker #rolle></mat-datepicker>
+        </mat-form-field>
+
+
+        <div class="no">
+                        <button mat-raised-button color="primary">Search </button>
+        </div>
+
+       
+                        
+                              
+
+
+        
+        
+</form>
+
